@@ -1,4 +1,4 @@
-# Ownia
+## Ownia
 
 Uma pequena aplicação para um agente conversacional offline. Possui uma interface visual amigável construída no Tkinter, com suporte a um system_prompt que pode ser editado inclusive dentro da própria aplicação e memória simples em memory.json para armazenar conversas localmente.
 
@@ -7,6 +7,11 @@ Uma pequena aplicação para um agente conversacional offline. Possui uma interf
 - `Prompt` permite editar o prompt dentro da aplicação
 - `Limpar` exclui todo histórico da conversa
 - Há também botões/ícones em baixo da última mensagem enviada pelo agente, que permite: `gerar uma nova resposta` (substituindo a última mensagem enviada), `editar resposta` (você pode editar a resposta do agente caso queira), `excluir mensagem` (exclui a última mensagem, essa opção também está disponível para as suas próprias mensagens) e `continuar conversa` (o agente envia uma nova mensagem sem excluir a anterior).
+
+  
+![0](https://github.com/user-attachments/assets/c7405f79-b279-4df9-bb64-645a159e4b19)
+
+
 
 ### Requisitos
 
