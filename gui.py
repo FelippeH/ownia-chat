@@ -61,7 +61,7 @@ SCROLLBAR_BG = "#16213e"
 SCROLLBAR_FG = "#0f3460"
 
 # ════════════════════════════════════════════════════════════════
-#  LÓGICA DO AGENTE (reutilizada do agent.py)
+#  LÓGICA DO AGENTE
 # ════════════════════════════════════════════════════════════════
 
 def load_memory():
@@ -128,7 +128,7 @@ def ask_llm(prompt, temperature=0.6, system_msg=None):
             "top_k": 30,
             "frequency_penalty": 0.7,
             "repeat_penalty": 1.05,
-            "num_predict": 256,
+            "num_predict": 1024,
             "num_ctx": 1024,
         }
     }
@@ -459,8 +459,8 @@ class ChatApp(tk.Tk):
         path = self.app_config.get("avatar_path", "")
         if path and Path(path).exists():
             try:
-                self._avatar_img = make_circle_avatar(path, 200)
-                self._avatar_mini = make_circle_avatar(path, 80)
+                self._avatar_img = make_circle_avatar(path, 100)
+                self._avatar_mini = make_circle_avatar(path, 100)
             except Exception:
                 self._avatar_img = None
                 self._avatar_mini = None
