@@ -9,8 +9,7 @@ Uma pequena aplicação para um agente conversacional offline. Possui uma interf
 - Há também botões/ícones em baixo da última mensagem enviada pelo agente, que permite: `gerar uma nova resposta` (substituindo a última mensagem enviada), `editar resposta` (você pode editar a resposta do agente caso queira), `excluir mensagem` (exclui a última mensagem, essa opção também está disponível para as suas próprias mensagens) e `continuar conversa` (o agente envia uma nova mensagem sem excluir a anterior).
 
   
-![0](https://github.com/user-attachments/assets/c7405f79-b279-4df9-bb64-645a159e4b19)
-
+![0](https://github.com/user-attachments/assets/21d655ee-6cdf-40ae-ac58-dd114b1b2ec1)
 
 
 ### Requisitos
