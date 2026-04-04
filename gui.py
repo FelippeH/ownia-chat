@@ -460,7 +460,7 @@ class ChatApp(tk.Tk):
         if path and Path(path).exists():
             try:
                 self._avatar_img = make_circle_avatar(path, 100)
-                self._avatar_mini = make_circle_avatar(path, 100)
+                self._avatar_mini = make_circle_avatar(path, 60)
             except Exception:
                 self._avatar_img = None
                 self._avatar_mini = None
