@@ -1,6 +1,6 @@
 ## Ownia
 
-Uma pequena aplicação para um agente conversacional offline. Possui uma interface visual amigável construída no Tkinter, com suporte a um system_prompt que pode ser editado inclusive dentro da própria aplicação e memória simples em memory.json para armazenar conversas localmente.
+Uma pequena aplicação para um agente conversacional offline. A interface visual foi feita no Tkinter, justamente com o propósito de ser simples, leve e fácil de usar. A aplicação tem suporte a um system_prompt que pode ser editado inclusive dentro da própria aplicação e memória simples em memory.json para armazenar conversas localmente.
 
 ### Funcionalidades
 - `Configuração` permite dar um nome ao agente (obrigatório), definir como o agente te chamará (obrigatório) e opção de adicionar uma imagem para o agente (opcional).
